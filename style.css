@@ -15,6 +15,7 @@ body {
   background: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80')
     no-repeat center center/cover;
   position: relative;
+  transition: all ease-in-out 0.4s;
 }
 body::before {
   content: '';
@@ -48,6 +49,7 @@ body::before {
   background: center center/cover;
   top: -15vh;
   left: -15vw;
+  transition: all ease-in-out 0.3s;
 }
 
 .active {
